@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/playQuiz">
+
+    <fragment
+        android:id="@+id/playQuiz"
+        android:name="cricket.Schedule.IPL2020.PlayQuiz"
+        android:label="fragment_play_quiz"
+        tools:layout="@layout/fragment_play_quiz">
+        <action
+            android:id="@+id/action_playQuiz_to_result"
+            app:destination="@id/result"
+            app:popUpTo="@id/playQuiz"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/result"
+        android:name="cricket.Schedule.IPL2020.result"
+        android:label="fragment_result"
+        tools:layout="@layout/fragment_result">
+        <action
+            android:id="@+id/action_result_to_playQuiz"
+            app:destination="@id/playQuiz"
+            app:popUpTo="@id/result"
+            app:popUpToInclusive="true" />
+    </fragment>
+</navigation>

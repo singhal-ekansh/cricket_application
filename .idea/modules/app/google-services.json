@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "574955940409",
+    "firebase_url": "https://ipl-2020-1c440.firebaseio.com",
+    "project_id": "ipl-2020-1c440",
+    "storage_bucket": "ipl-2020-1c440.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:574955940409:android:90fc949be400949b9ebbe8",
+        "android_client_info": {
+          "package_name": "cricket.Schedule.IPL2020"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "574955940409-486qd7me8kv9c8bol9a182qt9ej8mu5a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "cricket.Schedule.IPL2020",
+            "certificate_hash": "ea2b4b76854bfd4811ce4542cb46eeee9ae05da0"
+          }
+        },
+        {
+          "client_id": "574955940409-gcabldr0i1o02kog2n7lf2in37h16mvc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAKuhPn0qYlbhcTY0x2a7j2pmZ1r-LNuI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "574955940409-gcabldr0i1o02kog2n7lf2in37h16mvc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

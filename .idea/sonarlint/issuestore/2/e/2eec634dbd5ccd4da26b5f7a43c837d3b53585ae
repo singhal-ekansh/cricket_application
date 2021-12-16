@@ -1,0 +1,33 @@
+
+H
+java:S1659"&Declare "statsBtn" on a separate line.(®ÿÖùÿÿÿÿ8Ä—Ñ/
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(´Å¤‹ÿÿÿÿÿ
+Q	java:S110"<This class has 9 parents which is greater than 5 authorized.(²Ú±
+E
+java:S1604m"(Make this anonymous inner class a lambda(¯ÂºŠ8ĞäéÕ/
+K
+java:S1604‘"(Make this anonymous inner class a lambda(¥íîŸÿÿÿÿÿ8ĞäéÕ/
+E
+java:S1604J"(Make this anonymous inner class a lambda(ÅÓÜ8ĞäéÕ/
+E
+java:S1604Q"(Make this anonymous inner class a lambda(õá…8ĞäéÕ/
+E
+java:S1604W"(Make this anonymous inner class a lambda(¦ğ¿8ĞäéÕ/
+B
+java:S1659"'Declare "updateBtn" on a separate line.(®ÿÖùÿÿÿÿ
+<
+java:S1170""!Make this final field static too.(ˆ¾åäüÿÿÿÿ
+C
+java:S1659"(Declare "quizzerBtn" on a separate line.(®ÿÖùÿÿÿÿ
+E
+java:S1659"*Declare "squadsButton" on a separate line.(®ÿÖùÿÿÿÿ
+J
+java:S1604D"(Make this anonymous inner class a lambda(Ÿè¹¡ÿÿÿÿÿ8ĞäéÕ/
+J
+java:S1604]"(Make this anonymous inner class a lambda( ôã«şÿÿÿÿ8ĞäéÕ/
+J
+java:S1604f"(Make this anonymous inner class a lambda(†ı¶ºşÿÿÿÿ8¡¤Ñ/
+@
+java:S1659"%Declare "extQuiz" on a separate line.(®ÿÖùÿÿÿÿ
+B
+java:S1659"'Declare "pointsBtn" on a separate line.(®ÿÖùÿÿÿÿ

@@ -1,0 +1,34 @@
+
+_
+java:S1192u"IDefine a constant instead of duplicating this literal "3:30 pm" 11 times.(ÀÓ©Œ
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ýüˆƒ
+b
+java:S1192‚"FDefine a constant instead of duplicating this literal "DELHI" 8 times.(ÑßÁŒøÿÿÿÿ
+Q	java:S110"<This class has 9 parents which is greater than 5 authorized.(ýüˆƒ
+d
+java:S1192l"IDefine a constant instead of duplicating this literal "CHENNAI" 10 times.(ÐäëÆùÿÿÿÿ
+œ
+java:S1186]"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¹Æº×þÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(´Å¤‹ÿÿÿÿÿ
+H
+java:S1128"3Remove this unused import 'android.content.Intent'.(³ð‹G
+E
+java:S3740"/Provide the parametrized type for this generic.(Ó¥ö¬
+h
+java:S1192l"MDefine a constant instead of duplicating this literal "Group Stage" 56 times.(ÐäëÆùÿÿÿÿ
+b
+java:S1192€"KDefine a constant instead of duplicating this literal "AHMEDABAD" 12 times.(²‚£¹
+X	java:S125/"<This block of commented-out lines of code should be removed.(‘Ÿ”Æ8‘½Ô¶–/
+M
+java:S1128"2Remove this unused import 'android.widget.Button'.(²òžýÿÿÿÿ
+g
+java:S1192‘"KDefine a constant instead of duplicating this literal "BANGALORE" 10 times.(Â‚ƒÆþÿÿÿÿ
+<	java:S1319""Add a default case to this switch.(¼œóÛüÿÿÿÿ
+^
+java:S1192m"HDefine a constant instead of duplicating this literal "MUMBAI" 10 times.(ƒŠþ…
+e
+java:S1192’"IDefine a constant instead of duplicating this literal "KOLKATA" 10 times.(¬¤®™ÿÿÿÿÿ
+d
+java:S1192l"IDefine a constant instead of duplicating this literal "7:30 pm" 49 times.(ÐäëÆùÿÿÿÿ
+R
+java:S1128"=Remove this unused import 'androidx.appcompat.app.ActionBar'.(·¯z

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Kricket</string>
+
+    <string-array name="filter_by">
+        <item>All Teams</item>
+        <item> IND</item>
+        <item> SA</item>
+        <item> ENG</item>
+        <item> AUS</item>
+        <item> WI</item>
+        <item> SL</item>
+
+
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,10 @@
+
+Q	java:S110"<This class has 9 parents which is greater than 5 authorized.(¿™úï
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(´Å¤‹ÿÿÿÿÿ
+>
+java:S16048"(Make this anonymous inner class a lambda(œµ”ç
+R
+java:S1128"=Remove this unused import 'androidx.appcompat.app.ActionBar'.(·¯z
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¿™úï
+E
+java:S3740"/Provide the parametrized type for this generic.(Ó¥ö¬
