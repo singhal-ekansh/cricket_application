@@ -59,29 +59,29 @@ public class schedule extends AppCompatActivity {
                         setSchedule(0);
                         break;
                     case 1:
-                        setSchedule(R.drawable.ind);
+                        setSchedule(R.drawable.csk);
                         break;
                     case 2:
-                        setSchedule(R.drawable.sa);
+                        setSchedule(R.drawable.mi);
                         break;
                     case 3:
-                        setSchedule(R.drawable.eng);
+                        setSchedule(R.drawable.rcb);
                         break;
                     case 4:
-                        setSchedule(R.drawable.aus);
+                        setSchedule(R.drawable.kxip);
                         break;
                     case 5:
-                        setSchedule(R.drawable.wi);
+                        setSchedule(R.drawable.rr);
                         break;
                     case 6:
-                        setSchedule(R.drawable.sl);
+                        setSchedule(R.drawable.srh);
                         break;
                     case 7:
-                        setSchedule(R.drawable.afg);
+                        setSchedule(R.drawable.kkr);
                         break;
 
                     case 8:
-                        setSchedule(R.drawable.nz);
+                        setSchedule(R.drawable.dc);
                         break;
 
 
@@ -105,31 +105,10 @@ public class schedule extends AppCompatActivity {
         scheduleRecycler.setLayoutManager(new LinearLayoutManager(getApplicationContext(), LinearLayoutManager.VERTICAL, false));
         iplList = new ArrayList<>();
 
-        iplList.add(new helperClass(R.drawable.aus, R.drawable.eng, "Ashes 1st Test", "8 dec-12 dec", "10 am (local)", "Brisbane"));
-        iplList.add(new helperClass(R.drawable.aus, R.drawable.eng, "Ashes 2nd Test", "16 dec-20 dec", "2:30 pm (local)", "Adelaide"));
-        iplList.add(new helperClass(R.drawable.aus, R.drawable.eng, "Ashes 3rd Test", "26 dec-30 dec", "10:30 am (local)", "Melbourne"));
-        iplList.add(new helperClass(R.drawable.ind, R.drawable.sa, "1st Test", "26 dec-30 dec", "1:30 pm (IST)", "Centurion"));
-        iplList.add(new helperClass(R.drawable.ind, R.drawable.sa, "2nd Test", "3 jan-7 jan", "1:30 pm (IST)", "Johannesburg"));
-        iplList.add(new helperClass(R.drawable.aus, R.drawable.eng, "Ashes 4th Test", "5 jan-9 jan", "10:30 am (local)", "Sydney"));
-        iplList.add(new helperClass(R.drawable.ind, R.drawable.sa, "3rd Test", "11 jan-15 jan", "2 pm (IST)", "Cape Town"));
-        iplList.add(new helperClass(R.drawable.aus, R.drawable.eng, "Ashes 5th Test", "14 jan-18 jan", "10 am (local)", "TBD"));
-
-        iplList.add(new helperClass(R.drawable.ind, R.drawable.sa, "1st Odi", "19 january", "2 pm (IST)", "Paari"));
-        iplList.add(new helperClass(R.drawable.ind, R.drawable.sa, "2nd Odi", "21 january", "2 pm (IST)", "Paari"));
-        iplList.add(new helperClass(R.drawable.ind, R.drawable.sa, "3rd Odi", "23 january", "2 pm (IST)", "Cape Town"));
-
-        iplList.add(new helperClass(R.drawable.ind, R.drawable.wi, "1st Odi", "6 february", "1 pm (IST)", "Ahmedabad"));
-        iplList.add(new helperClass(R.drawable.ind, R.drawable.wi, "2nd Odi", "9 february", "1 pm (IST)", "Jaipur"));
-        iplList.add(new helperClass(R.drawable.ind, R.drawable.wi, "3rd Odi", "12 february", "1 pm (IST)", "Kolkata"));
-        iplList.add(new helperClass(R.drawable.ind, R.drawable.wi, "1st T20", "15 february", "7 pm (IST)", "Cuttack"));
-        iplList.add(new helperClass(R.drawable.ind, R.drawable.wi, "2nd T20", "18 february", "7 pm (IST)", "Visakhapatnam"));
-        iplList.add(new helperClass(R.drawable.ind, R.drawable.wi, "3rd Odi", "20 february", "7 pm (IST)", "Thiruvananthapuram"));
-
-        iplList.add(new helperClass(R.drawable.ind, R.drawable.sl, "1st Test", "25 feb-1 mar", "9:30 am (IST)", "Bengaluru"));
-        iplList.add(new helperClass(R.drawable.ind, R.drawable.sl, "2nd Test", "5 mar-9 mar", "9:30 am (IST)", "Mohali"));
-        iplList.add(new helperClass(R.drawable.ind, R.drawable.sl, "1st T20", "13 march", "7 pm (IST)", "Mohali"));
-        iplList.add(new helperClass(R.drawable.ind, R.drawable.sl, "2nd T20", "15 march", "7 pm (IST)", "Dharamshala"));
-        iplList.add(new helperClass(R.drawable.ind, R.drawable.sl, "3rd Odi", "18 march", "7 pm (IST)", "Lucknow"));
+        iplList.add(new helperClass(R.drawable.mi, R.drawable.csk, "Group Stage", "27 March", "8 pm IST", "Chepauk"));
+        iplList.add(new helperClass(R.drawable.rcb, R.drawable.kkr, "Group Stage", "28 March", "8 pm IST", "Chinnaswami"));
+        iplList.add(new helperClass(R.drawable.kxip, R.drawable.dc, "Group Stage", "29 March", "8 pm IST", "Mohali"));
+        iplList.add(new helperClass(R.drawable.rr, R.drawable.srh, "Group Stage", "30 March", "8 pm IST", "Jaipur"));
 
 
         adapter = new iplAdapter(iplList, filterBy);

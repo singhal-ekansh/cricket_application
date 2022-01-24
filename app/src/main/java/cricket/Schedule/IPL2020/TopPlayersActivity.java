@@ -57,7 +57,7 @@ public class TopPlayersActivity extends AppCompatActivity {
 
             @Override
             public void onError(Ad ad, AdError adError) {
-                Toast.makeText(TopPlayersActivity.this,adError.getErrorMessage(),Toast.LENGTH_LONG).show();
+               // Toast.makeText(TopPlayersActivity.this,adError.getErrorMessage(),Toast.LENGTH_LONG).show();
             }
 
             @Override

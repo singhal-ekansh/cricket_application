@@ -34,9 +34,9 @@ public class MainActivity extends AppCompatActivity {
     CardView showHideQuiz;
     FirebaseAuth auth;
     FirebaseFirestore firebaseFirestore;
-    FirebaseRemoteConfig firebaseRemoteConfig;
+    // FirebaseRemoteConfig firebaseRemoteConfig;
     final String urlQuiz = "https://818.win.qureka.com";
-    final String urlPrediction = "https://play.predchamp.com";
+    final String urlPrediction = "https://630.live.predchamp.com";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

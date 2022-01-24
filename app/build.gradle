@@ -9,8 +9,8 @@ android {
         applicationId "cricket.Schedule.IPL2020"
         minSdkVersion 23
         targetSdkVersion 32
-        versionCode 25
-        versionName "25.0"
+        versionCode 26
+        versionName "1.0.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }

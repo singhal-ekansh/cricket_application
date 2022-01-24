@@ -1,14 +1,16 @@
 <resources>
-    <string name="app_name">Kricket</string>
+    <string name="app_name">IPL 2022</string>
 
     <string-array name="filter_by">
         <item>All Teams</item>
-        <item> IND</item>
-        <item> SA</item>
-        <item> ENG</item>
-        <item> AUS</item>
-        <item> WI</item>
-        <item> SL</item>
+        <item> CSK</item>
+        <item> MI</item>
+        <item> RCB</item>
+        <item> PBKS</item>
+        <item> RR</item>
+        <item> SRH</item>
+        <item> KKR</item>
+        <item> DC</item>
 
 
     </string-array>

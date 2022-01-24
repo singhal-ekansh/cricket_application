@@ -22,7 +22,7 @@
             android:layout_marginEnd="10dp"
             android:layout_marginBottom="10dp"
             android:layout_toStartOf="@+id/spin"
-            android:text="Schedule Cricket"
+            android:text="IPL MATCHES 2022"
             android:textColor="#fff"
             android:textSize="20sp"
             android:textStyle="bold" />
@@ -43,10 +43,19 @@
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/scheduleRecycler"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:layout_below="@+id/spin"
-            android:layout_marginTop="5dp" />
+            android:layout_marginTop="50dp" />
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/spin"
+
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:text="Full schedule will be updated on official release. Do check for app updates"
+            android:textColor="#fff" />
 
     </RelativeLayout>
 

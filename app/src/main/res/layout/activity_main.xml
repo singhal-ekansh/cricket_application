@@ -180,7 +180,7 @@
                         android:id="@+id/querkaBtn"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:background="#205212"
+                        android:background="#76ba1b"
                         android:drawableTop="@drawable/ic_baseline_sports_cricket_24"
                         android:drawablePadding="10dp"
                         android:drawableTint="#ffffff"

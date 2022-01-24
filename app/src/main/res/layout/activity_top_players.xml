@@ -213,6 +213,12 @@
                         android:layout_height="wrap_content" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="*List updates after every match"
+                android:padding="10dp"/>
         </LinearLayout>
     </androidx.core.widget.NestedScrollView>
 

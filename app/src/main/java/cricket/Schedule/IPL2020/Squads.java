@@ -23,10 +23,16 @@ public class Squads extends AppCompatActivity {
         squadRecycler.setLayoutManager(new LinearLayoutManager(getApplicationContext(), LinearLayoutManager.VERTICAL, false));
 
         iplSquad = new ArrayList<>();
-        iplSquad.add(new squadHelper(R.drawable.ind,"INDIA Test","Virat Kohli (Captain), Rohit Sharma, KL Rahul, Mayank Agarwal, Shubman Gill, Cheteshwar Pujara, Ajinkya Rahane/Hanuma Vihari, Shreyas Iyer, R Ashwin, Ravindra Jadeja, Shardul Thakur, Rishabh Pant, Wriddhiman Saha, Jasprit Bumrah, Mohammed Shami, Mohammed Siraj, Umesh Yadav, Prasidh Krishna/Ishant Sharma"));
-        iplSquad.add(new squadHelper(R.drawable.eng,"England Ashes","Joe Root (Captain), Ben Stokes, James Anderson, Jonathan Bairstow, Dom Bess, Stuart Broad, Rory Burns, Jos Buttler, Zak Crawley, Haseeb Hameed, Dan Lawrence, Jack Leach, Dawid Malan, Craig Overton, Ollie Pope, Ollie Robinson, Chris Woakes, Mark Wood"));
-        iplSquad.add(new squadHelper(R.drawable.aus,"Australia Ashes","Alex Carey (wk), Pat Cummins (c), Cameron Green, Marcus Harris, Josh Hazlewood, Travis Head, Usman Khawaja, Marnus Labuschagne, Nathan Lyon, Michael Neser, Jhye Richardson, Steve Smith (vc), Mitchell Starc, Mitchell Swepson, David Warner"));
-        iplSquad.add(new squadHelper(R.drawable.sa,"South Africa Test","Dean Elgar (captain), Temba Bavuma (vice-captain), Quinton de Kock (wicketkeeper), Kagiso Rabada, Sarel Erwee, Beuran Hendricks, George Linde, Keshav Maharaj, Lungi Ngidi, Aiden Markram, Wiaan Mulder, Anrich Nortje, Keegan Petersen, Rassie van der Dussen, Kyle Verreynne, Marco Jansen, Glenton Stuurman, Prenelan Subrayen, Sisanda Magala, Ryan Rickelton, Duanne Olivier"));
+        iplSquad.add(new squadHelper(R.drawable.mi,"MUMBAI INDIANS","Rohit Sharma(captain),Suryakumar Yadav,Kieron Pollard,Jasprit Bumrah"));
+        iplSquad.add(new squadHelper(R.drawable.csk,"CHENNAI SUPER KINGS","MS Dhoni,Ravindra Jadeja,Ruturaj Gaikwad,Moeen Ali"));
+        iplSquad.add(new squadHelper(R.drawable.rcb,"ROYAL CHALLENGERS BANGALORE","Virat Kohli,Glenn Maxwell,Mohammed Siraj"));
+        iplSquad.add(new squadHelper(R.drawable.dc,"DELHI CAPITALS","Prithvi Shaw,Rishabh Pant,Axar Patel,Anrich Nortje"));
+        iplSquad.add(new squadHelper(R.drawable.rr,"RAJASTHAN ROYALS","Yashasvi Jaiswal,Sanju Samson,Jos Butler"));
+        iplSquad.add(new squadHelper(R.drawable.kkr,"KOLKATA KNIGHT RIDERS","Andre Russell,Venkatesh Iyer,Sunil Narine,Varun Chakravarty"));
+        iplSquad.add(new squadHelper(R.drawable.srh,"SUNRISERS HYDERABAD","Kane Williamson(captain),Abdul Samad,Umran Malik"));
+        iplSquad.add(new squadHelper(R.drawable.kxip,"PUNJAB KINGS","Mayank Agarwal,Arshdeep Singh"));
+        iplSquad.add(new squadHelper(R.drawable.tba,"LUCKNOW","KL Rahul(captain),Marcus Stoinis,Ravi Bishnoi"));
+        iplSquad.add(new squadHelper(R.drawable.tba,"AHMEDABAD","Hardik Pandya,Shubman Gill,Rashid Khan"));
 
         adapter=new SquadAdapter(iplSquad);
         squadRecycler.setAdapter(adapter);
