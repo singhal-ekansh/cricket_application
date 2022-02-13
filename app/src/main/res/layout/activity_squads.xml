@@ -7,19 +7,10 @@
     android:background="#00f2fe"
     tools:context=".Squads">
 
-    <TextView
-        android:id="@+id/t1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:padding="10dp"
-        app:layout_constraintTop_toTopOf="parent"
-
-        android:text="*Squads will be updated after auctions. Do check app updates"/>
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/squadRecycler"
-        app:layout_constraintTop_toBottomOf="@+id/t1"
         android:layout_width="match_parent"
-        android:layout_marginTop="10dp"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
